@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employment Application Form</title>
+</head>
+<body>
+   <form>
+      <h2>Employment Application Form</h2>
+      <p>Please complete all section of this form. Fields marked with * are required</p>
+      <fieldset>
+      <legend><b>Personal Information<b></legend>
+       <br>
+      <label>Title:</label>
+       <select name="a*r">
+      <option value=1>Please select</option>
+    </select>
+    <br>
+     <label>First Name*:</label>
+      <input type="firstname">
+      <br>
+       <label>Last Name*:</label>
+      <input type="lastname">
+      <br>
+      <label>Email Address*:</label>
+      <input type="emailaddress">
+      <br>
+      <label>Phone Number*:</label>
+      <input type="phonenumber" placeholder="1234567890"> 
+      <br>
+      <label>Date of Birth*:</label>
+      <input type="dateofbirth" placeholder="m/dd/yyyy">
+      <br>
+      <label>Address*:</label>
+      <input type="address">
+      <text arearow="3"cols="30">
+      </fieldset>
+      <fieldset>
+      <legend><b>Employment Details<b></legend>
+      <br>
+      <label>Desired Positions*:</label>
+      <select name="a*r">
+      <option value=1>Please select</option>
+    </select>
+    <br>
+     <label>Expected Salary($):</label>
+      <input type="expected salary">
+      <br>
+       <label>Available Start Date*:</label>
+      <input type="availablestartdate" placeholder="m/dd/yyyy">
+      <br>
+      <label>Employment Type*:</label>
+      <input type="radio"value="employment type">
+      <label for ="Full-time">Full-time</label>
+    <input type="radio"value="fulltime">
+    <label for ="Part-time">Part-time</label>
+    <input type ="radio" value= parttime">
+    <label for="Contact">contact</label>
+    <br>
+    <lable>Remote Work Options:</label>
+    <input type ="checkbox" id="remoteworkoption" name="remoteworkoption" value="yes">
+    <lable>Open to remote work</label>
+    <input type ="checkbox" id="opentoremotework" name="opentoremotework" value="yes">
+    <lable>Interest in hybrid model</label>
+    </fieldset>
+    <fieldset>
+     <legend><b>Education History<b></legend>
+     <table border="1">
+     <tr>
+     <th>Instution</th>
+     <th>Degree</th>
+     <th>Field of Study</th>
+     <th>Graduation year</th>
+     </tr>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <select>
+     <option>select</option>
+     <option>10th</option>
+     <option>12th</option>
+     <option>B.tech</option>
+     <option>1st Year</option>
+     </select>
+     </td>
+     <td>
+     <input type="text">
+     </td>
+     <td>
+     <input type="number">
+     </td>
+     </table>
+     <table>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <select>
+     <option>select</option>
+     <option>10th</option>
+     <option>12th</option>
+     <option>B.tech</option>
+     <option>1st Year</option>
+     </select>
+     </td>
+     <td>
+     <input type="text">
+     </td>
+     <td>
+     <input type="number">
+     </td>
+     </table>
+      </fieldset>
+    <fieldset>
+     <legend><b>Working Experience<b></legend>
+     <table border="1">
+     <tr>
+     <th>Company</th>
+     <th>Positions</th>
+     <th>Start Date</th>
+     <th>End Date</th>
+     <th>Responsibilities</th>
+     </tr>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+      <input type="startdate" placeholder="m/dd/yyyy">
+      </td>
+      <td>
+      <input type="enddate" placeholder="m/dd/yyyy">
+      </td>
+     <td>
+     <input type= "text">
+     </td>
+      </table>
+      <table>
+      <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+      <input type="startdate" placeholder="m/dd/yyyy">
+      </td>
+      <td>
+      <input type="enddate" placeholder="m/dd/yyyy">
+      </td>
+      <td>
+     <input type= "text">
+     </td>
+     </table>
+    </fieldset>
+    <fieldset>
+    <legend><b>Skills Assesment<b></legend>
+   
+     <p>Rate your proficiency in the following skills(1=Beginner, 5=Expert):</p>
+     <label>Communication:</label>
+     <input type="range"min="1" max="5">
+     <br>
+     <label>Leadership:</label>
+      <input type="range"min="1" max="5">
+     <br>
+      <label>Technical Ability:</label>
+       <input type="range"min="1" max="5">
+     <br>
+     <label>Additional Skills:</label>
+     <br><textarea rows="4"cols="50" placeholder="List any relevant skills"></textarea>
+    </fieldset>
+    <fieldset>
+     <legend><b>Documents<b></legend>
+     <label>Upload Resume(PDF/DOCX)*:</label>
+      <label for="file upload"></label>
+    <input type ="file"/>
+     <br>
+     <label>Cover Letter(optional):</label>
+      <label for="file upload"></label>
+    <input type ="file">
+     <br>
+     <label>Portfolio Link:</label>
+     <input type="portfolio"placeholder="https://">
+    </fieldset>
+    <fieldset>
+     <legend><b>Reference<b></legend>
+     <p>Please provide at least two professional references:</p>
+     <table border="1">
+     <tr>
+     <th>Name</th>
+     <th>Position</th>
+     <th>Company</th>
+     <th>Email</th>
+      <th>Phone</th>
+     </tr>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text"placeholder="123 456 789">
+     </td>
+     </table>
+     <table>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text">
+     </td>
+     <td>
+     <input type= "text"placeholder="123 456 789">
+     </td>
+     </table>
+    </fieldset>
+    <fieldset>
+     <legend><b>Terms and Conditions<b></legend>
+     <input type ="checkbox" id="paragraph" name="paragraph" value="yes"> I hereby declare that the information provided is true and accurate to the best of my knowledge.*
+     <br>
+     <input type ="checkbox" id="paragraph" name="paragraph" value="yes"> I agree to the processing of my personal data for the purpose of recruitment.*
+     <br>
+     <input type ="checkbox" id="paragraph" name="paragraph" value="yes"> I would like to receive notifications about future job opportunities.*
+     <br>
+    
+      <input type="text"value="Submit Application">
+       <input type="text"value="Clear Form">
+    </fieldset>
+   </form> 
+</body>
+</html>
